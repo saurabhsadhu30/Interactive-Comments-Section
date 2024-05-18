@@ -1,0 +1,30 @@
+.reply {
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 20px;
+}
+
+.reply__form {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.reply__user-image {
+    width: 40px;
+}
+
+.reply__textarea {
+    flex-grow: 1;
+    height: 96px;
+    border: 1px solid var(--light-gray);
+    border-radius: 8px;
+    padding: 12px 24px;
+    text-align: top;
+    resize: none;
+    font-family: inherit;
+    color: var(--grayish-blue);
+}
+

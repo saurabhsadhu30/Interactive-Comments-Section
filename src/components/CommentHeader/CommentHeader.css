@@ -1,0 +1,92 @@
+.comment-header {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.comment-header__info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.comment-header__img {
+    width: 32px;
+}
+
+.comment-header__username {
+    color: var(--dark-blue);
+    font-weight: 500;
+    line-height: 19px;
+    display: flex;
+    gap: 8px;
+}
+
+.comment-header__created {
+    line-height: 24px;
+    color: var(--grayish-blue);
+}
+
+.comment-header__actions {
+    display: flex;
+    gap: 24px;
+}
+
+.comment-header__reply,
+.comment-header__edit,
+.comment-header__delete {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.comment-header__reply:hover .comment-header__reply-button,
+.comment-header__edit:hover .comment-header__edit-button {
+    fill: var(--light-grayish-blue);
+}
+
+.comment-header__reply:hover .comment-header__reply-text,
+.comment-header__edit:hover .comment-header__edit-text {
+    color: var(--light-grayish-blue);
+}
+
+.comment-header__delete:hover .comment-header__delete-button {
+    fill: var(--pale-red);
+}
+
+.comment-header__delete:hover .comment-header__delete-text {
+    color: var(--pale-red);
+}
+
+.comment-header__reply-text,
+.comment-header__edit-text,
+.comment-header__delete-text {
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.comment-header__reply-text,
+.comment-header__edit-text {
+    color: var(--moderate-blue);
+}
+
+.comment-header__delete-text {
+    color: var(--soft-red);
+}
+
+.comment-header__current-user {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: var(--white);
+    background-color: var(--moderate-blue);
+    border-radius: 2px;
+    padding: 2px 6px;
+}
+
+/* .comment-header__reply-button:hover,
+.comment-header__edit-button:hover {
+    fill: red;
+} */
